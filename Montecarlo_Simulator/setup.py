@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name = 'Montecarlo Simulator',
+setup(name = 'Montecarlo_Simulator',
       version = '1.1',
       packages=find_packages(),
       description = 'Python Package for Montecarlo Simulator',
@@ -8,5 +8,4 @@ setup(name = 'Montecarlo Simulator',
       author = 'Francis Mangala',
       author_email = 'pgm2qm@virginia.edu',
       license = 'MIT',
-      packages = ['Montecarlo_'],
       install_requires = ['numpy', 'pandas'])
