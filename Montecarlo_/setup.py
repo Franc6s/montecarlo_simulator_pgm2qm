@@ -1,7 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-setup(name = 'Monte Carlo Simulator',
-      version = '2.0',
+setup(name = 'Montecarlo Simulator',
+      version = '1.1',
+      packages=find_packages(),
       description = 'Python Package for Montecarlo Simulator',
       url = 'https://github.com/Franc6s/montecarlo_simulator_pgm2qm',
       author = 'Francis Mangala',
